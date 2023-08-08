@@ -5,8 +5,9 @@ body{
 .cabecalho{
     display: flex;
     justify-content: space-between;
-
     align-items: center;
+
+    padding: 45px;
 }
 
 .logo{
@@ -14,8 +15,6 @@ body{
     align-items: center;
 
     text-decoration: none;
-
-    padding: 45px 0 0 45px;
 }
 
 .logo .imagem{
@@ -34,8 +33,6 @@ body{
     display: flex;
     
     align-items: center;
-    
-    margin-top: 45px;
 
     font-size: 15px;
 }
@@ -53,6 +50,8 @@ body{
 .link{
     text-decoration: none;
     padding: 11px 6px;
+
+    transition: 0.3s ease-in-out;
 }
 
 .link:visited{
@@ -63,14 +62,9 @@ body{
     background-color: #5BC241;
     color: #fff;
     padding: 11px 6px;
-    transition: 0.3s ease-in-out;
 }
 
-.botao{
-    margin: 15px 45px 15px 15px;
-
-    font-weight: 300;
-
+.cadastro{
     border: none;
     border-radius: 10px;
     padding: 10px 21px;
