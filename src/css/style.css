@@ -1,0 +1,79 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+
+    padding: 45px 0 0 45px;
+}
+
+.logo .imagem{
+    width: 45px;
+    height: 42px;
+}
+
+.logo h1{
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    margin-left: 5px;
+}
+
+.menu{
+    display: flex;
+    
+    align-items: center;
+    
+    margin-top: 45px;
+
+    font-size: 15px;
+}
+
+.menu ul{
+    display: flex;
+    font-weight: 400;
+}
+
+.menu ul li{
+    margin: 15px;
+    
+}
+
+.link{
+    text-decoration: none;
+    padding: 11px 6px;
+}
+
+.link:visited{
+    color: #000;
+}
+
+.link:hover{
+    background-color: #5BC241;
+    color: #fff;
+    padding: 11px 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.botao{
+    margin: 15px 45px 15px 15px;
+
+    font-weight: 300;
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px 21px;
+    background-color: #5BC241;
+    color: #fff;
+}
